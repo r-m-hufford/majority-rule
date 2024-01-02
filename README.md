@@ -48,7 +48,7 @@ The algorithm to complete this process relies on 2 variables and 3 functions. `c
 
 ### Detect Overlap
 
-First, the beginning of the overlap is identified. The index of the beginning of the overlap is stored as `start`. Next, the total overlap is searched for from `start` by appending the next word in the current test string to a temporary value. As long as `currentTranscript` contains temp the check continues. Once the check fails, the most recent truthy temp value is returned. Assuming guaranteed overlap, the words before `start` are ignored resolving inconsistencies at the head of test strings.
+First, the beginning of the overlap is identified. The index of the beginning of the overlap is stored as `start`. Next, the total overlap is searched for from `start` by appending the next word in the current test string to a temporary value. As long as `currentTranscript` contains temp the check continues. Once the check fails, the most recent truthy temp value is assumed to be the correct overlap. Assuming guaranteed overlap, the words before `start` are ignored resolving inconsistencies at the head of test strings.
 
 Finally, The beginning of `currentTranscript` is preserved, the new transmission is appended to `currentTranscript` and the merged string is returned. I decided to manage a `currentTranscript` rather than simply return the overlap because it made adding to the majority rule counter simple. Had I returned only the overlapping portion it seemed like I would have also needed to return starting/finishing indexes to the counter. This seems error prone.
 
