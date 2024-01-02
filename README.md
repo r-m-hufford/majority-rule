@@ -17,6 +17,7 @@ Understand Overlap and Inconsistency Mechanisms:
 
 Expected outcome: " I don't want to take away from the truth! That's fine. But I needed to hear this";
 
+```
 const testStrings = [
 " I don't want to take it.",
 " I don't want to take...",
@@ -31,6 +32,7 @@ const testStrings = [
 " and take away from the truth! That's fine. But I needed... ",
 " away from the truth! That's fine. But I needed to hear this.",
 ];
+```
 
 ## Implementation
 
