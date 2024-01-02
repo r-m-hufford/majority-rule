@@ -15,7 +15,7 @@ Understand Overlap and Inconsistency Mechanisms:
   Handling Special Cases:
 - Ensure your solution can handle cases like repeated or missing words within overlaps.
 
-Expected outcome: " I don't want to take away from the truth! That's fine. But I needed to hear this";
+Expected outcome: `" I don't want to take away from the truth! That's fine. But I needed to hear this";`
 
 ```
 const testStrings = [
