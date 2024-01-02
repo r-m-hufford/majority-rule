@@ -6,9 +6,13 @@ Understand Overlap and Inconsistency Mechanisms:
 
 - Comprehend the guaranteed overlap between segments.
 - Grasp the nature of transcription inconsistencies.
-  Overlap Detection:
+
+Overlap Detection:
+
 - Create a function to identify the overlapping region between two segments, considering guaranteed overlap.
-  Resolving Inconsistencies:
+
+Resolving Inconsistencies:
+
 - Implement a strategy for applying majority rules to resolve inconsistencies in overlapping regions.
   Building the Final Transcript:
 - Merge segments iteratively, applying overlap detection and inconsistency resolution at each step.
